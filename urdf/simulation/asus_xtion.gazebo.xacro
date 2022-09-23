@@ -24,6 +24,7 @@
           </camera>
 
           <plugin name="${reference}_camera_controller" filename="libgazebo_ros_openni_kinect.so">
+            <robotNamespace>/</robotNamespace>
 
             <alwaysOn>true</alwaysOn>
             <updateRate>${update_rate}</updateRate>

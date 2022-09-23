@@ -28,6 +28,7 @@
         </ray>
 
         <plugin name="gazebo_ros_${reference}_controller" filename="libgazebo_ros_laser.so">
+          <robotNamespace>/</robotNamespace>
           <gaussianNoise>0.005</gaussianNoise>
           <alwaysOn>true</alwaysOn>
           <updateRate>${update_rate}</updateRate>
