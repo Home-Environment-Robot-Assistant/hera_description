@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "",
+        "/home/robofei/Vision/Tensorflow_SynData/models/research",
+        "/home/robofei/Vision/Tensorflow_SynData/models/research/slim"
+    ]
+}
