@@ -9,7 +9,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/manip_base.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/manip_base.STL"/>
         </geometry>
         <material name="dark_grey">        
         </material>
@@ -17,7 +17,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/manip_base_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/manip_base_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_manip_base_link mass="0.225814419604843"/>
@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/shoulder_pan.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/shoulder_pan.STL"/>
         </geometry>
         <material name="dark_grey">
           <color rgba="0.996078431372549 0.996078431372549 1 1" />
@@ -47,7 +47,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/shoulder_pan_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/shoulder_pan_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_shoulder_pan_link mass="0.0289102664622999"/>
@@ -69,7 +69,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/shoulder_lift.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/shoulder_lift.STL"/>
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -78,7 +78,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/shoulder_lift_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/shoulder_lift_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_shoulder_lift_link mass="0.611796741662792"/>
@@ -100,7 +100,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/elbow_pan.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/elbow_pan.STL"/>
         </geometry>
         <material name="dark_grey">
           <color rgba="0.996078431372549 0.996078431372549 1 1" />
@@ -109,7 +109,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/elbow_pan_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/elbow_pan_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_elbow_pan_link mass="0.0289102660424069"/>
@@ -131,7 +131,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/elbow_lift.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/elbow_lift.STL"/>
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -140,7 +140,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/elbow_lift_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/elbow_lift_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_elbow_lift_link mass="0.611796742118779"/>
@@ -162,7 +162,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh  filename="package://hera_description/meshes/manip_meshes/wrist_pan.STL" />
+          <mesh  filename="file://$(find hera_description)/meshes/manip_meshes/wrist_pan.STL" />
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
@@ -171,7 +171,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/wrist_pan_col.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/wrist_pan_col.STL" />
         </geometry>
       </collision> 
       <xacro:inertial_wrist_pan_link mass="0.0368976416562371"/>
@@ -193,7 +193,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh  filename="package://hera_description/meshes/manip_meshes/wrist_lift.STL" />
+          <mesh  filename="file://$(find hera_description)/meshes/manip_meshes/wrist_lift.STL" />
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1"/>
@@ -202,7 +202,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/wrist_lift_col.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/wrist_lift_col.STL" />
         </geometry>
         </collision>
         <xacro:inertial_wrist_lift_link mass="0.482627734525522"/> 
@@ -224,7 +224,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_right.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_right.STL"/>
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -233,7 +233,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_right_col.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_right_col.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_gripper_right_link mass="0.0392347304267543"/>
@@ -255,7 +255,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_right_end.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_right_end.STL"/>
         </geometry>
         <material name="white">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -264,7 +264,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_right_end.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_right_end.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_gripper_right_end_link mass="0.0535201883186937"/>
@@ -285,7 +285,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_left.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_left.STL" />
         </geometry>
         <material name="dark_grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -294,7 +294,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_left.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_left.STL" />
         </geometry>
       </collision>
       <xacro:inertial_gripper_left_link mass="0.0392347308783591"/>
@@ -316,7 +316,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_left_end.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_left_end.STL" />
         </geometry>
         <material name="white">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -325,7 +325,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/gripper_meshes/gripper_left_end.STL" />
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/gripper_meshes/gripper_left_end.STL" />
         </geometry>
       </collision>
       <xacro:inertial_gripper_left_end_link mass="0.0535202013033793"/>

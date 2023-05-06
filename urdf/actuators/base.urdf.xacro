@@ -61,7 +61,7 @@
       <visual >
         <material name="black"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/base.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/base.stl"/>
         </geometry>
       </visual>
     </link>
@@ -75,7 +75,7 @@
         <origin xyz="0 -0.045 0" rpy=" 0 0 -${M_PI/2}"/>
         <material name="white"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/wheelF.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/wheelF.stl"/>
         </geometry>
       </visual>
     </xacro:wheel>
@@ -89,7 +89,7 @@
         <origin xyz="0 0.045 0" rpy=" 0 0 ${M_PI/2}"/>
         <material name="white"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/wheelF.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/wheelF.stl"/>
         </geometry>
       </visual>
     </xacro:wheel>
@@ -103,7 +103,7 @@
         <origin xyz="0 -0.045 0" rpy="0 0 -${M_PI/2}"/>
         <material name="white"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/wheelB.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/wheelB.stl"/>
         </geometry>
       </visual>
     </xacro:wheel>
@@ -117,7 +117,7 @@
         <origin xyz="0 0.045 0" rpy="0 0 ${M_PI/2}"/>
         <material name="white"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/wheelB.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/wheelB.stl"/>
         </geometry>
       </visual>
     </xacro:wheel>

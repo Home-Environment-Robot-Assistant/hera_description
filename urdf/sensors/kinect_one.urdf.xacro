@@ -21,7 +21,7 @@
       <visual>
         <origin xyz="0 -0.01 0" rpy="0.0 0.0 0.0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/kinect_one.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/kinect_one.stl"/>
         </geometry>
       </visual>
     </link>

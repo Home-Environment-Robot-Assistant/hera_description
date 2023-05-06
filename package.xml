@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
-<package format="2">
-
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>hera_description</name>
-  <version>0.1.0</version>
+  <version>2.0.0</version>
   <description>
     This package contains the URDF Description model and simulation of the [HERA robot (2020 version)](http://robofei.aquinno.com/athome/wp-content/uploads/2020/01/TDP2020ROBOFEI.pdf), developed by the [RoboFEI@home Team](http://robofei.aquinno.com/athome/) in the [FEI University Center](https://portal.fei.edu.br/).
   </description>
-
-  <maintainer email="fagnerpimentel@gmail.com">Fagner Pimentel</maintainer>
+  <maintainer email="FagnerPiemntel@gmail.com">Fagner Pimentel</maintainer>
   <author email="fagnerpimentel@gmail.com">Fagner Pimentel</author>
   <author email="williamyaguiu@gmail.com">William Yaguiu</author>
-  <url type="website">https://gitlab.com/fpimentel/hera/hera_description</url>
+  <url type="website">https://github.com/Home-Environment-Robot-Assistant/hera_description</url>
   <license>BSD</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
 
-  <build_depend>roscpp</build_depend>
-
-  <exec_depend>roscpp</exec_depend>
-
-
-
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>

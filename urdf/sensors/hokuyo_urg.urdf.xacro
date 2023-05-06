@@ -20,7 +20,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/hokuyo_urg.dae" />
+          <mesh filename="file://$(find hera_description)/meshes/hokuyo_urg.dae" />
         </geometry>
       </visual>
     </link>

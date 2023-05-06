@@ -75,14 +75,14 @@
         <origin xyz="0 0 -0.5" rpy="0 0 0"/>
         <material name="dark_grey"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/torso.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/torso.stl"/>
         </geometry>
       </visual>
       <collision>
         <origin xyz="0 0 -0.5" rpy="0 0 0"/>
         <material name="dark_grey"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/torso.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/torso.stl"/>
         </geometry>
       </collision>
     </link>
@@ -100,7 +100,7 @@
         <origin xyz="0.2 0 -0.2" rpy="0 0 0"/>
         <material name="dark_grey"/>
         <geometry>
-          <mesh filename="package://hera_description/meshes/torso_sensor_plat.stl"/>
+          <mesh filename="file://$(find hera_description)/meshes/torso_sensor_plat.stl"/>
         </geometry>
       </visual>
     </link>
@@ -138,7 +138,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/manip_support.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/manip_support.STL"/>
         </geometry>
         <material name="grey">
           <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -147,7 +147,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/manip_support.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/manip_support.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_manip_support_link mass="0.659217140679788"/>
@@ -169,7 +169,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/backrest.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/backrest.STL"/>
         </geometry>
         <material name="grey">
           <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
@@ -178,7 +178,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://hera_description/meshes/manip_meshes/backrest.STL"/>
+          <mesh filename="file://$(find hera_description)/meshes/manip_meshes/backrest.STL"/>
         </geometry>
       </collision>
       <xacro:inertial_backrest_link mass="0.0709912944888601"/>
